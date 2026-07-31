@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Primary SEO -->
+<title>Iqra Rehman — Senior WordPress, Shopify & Webflow Developer</title>
+<meta name="description" content="Senior web developer with 3+ years and 50+ delivered projects. WordPress, Shopify, Webflow, WooCommerce, Figma-to-code, SEO & speed optimization for clients in Pakistan, Dubai, UK & Germany.">
+<meta name="keywords" content="WordPress developer, Shopify developer, Webflow developer, WooCommerce expert, WordPress plugin development, Figma to WordPress, freelance web developer Pakistan, Elementor Pro, page speed optimization, AI-powered web development">
+<meta name="author" content="Iqra Rehman">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://iqrarehman.dev/">
+
+<!-- Open Graph / Social -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Iqra Rehman — Senior WordPress, Shopify & Webflow Developer">
+<meta property="og:description" content="3+ years, 50+ high-performance websites delivered across WordPress, Shopify & Webflow. Fast, SEO-optimized, conversion-focused.">
+<meta property="og:url" content="https://iqrarehman.dev/">
+<meta property="og:image" content="https://iqrarehman.dev/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Iqra Rehman — Senior Web Developer">
+<meta name="twitter:description" content="50+ high-performance WordPress, Shopify & Webflow websites delivered worldwide.">
+
+<meta name="theme-color" content="#0a0a0f">
+<meta name="msapplication-TileColor" content="#2f80ed">
+
+<!-- Preconnect for fast font load -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Structured Data for rich SEO results -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Iqra Rehman",
+  "jobTitle": "Senior WordPress & Web Developer",
+  "email": "iqrarehman025@gmail.com",
+  "telephone": "+92-311-0410446",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Islamabad",
+    "addressCountry": "Pakistan"
+  },
+  "url": "https://iqrarehman.dev/",
+  "knowsAbout": ["WordPress","Shopify","Webflow","WooCommerce","Elementor Pro","WordPress Plugin Development","SEO","Page Speed Optimization","Figma to WordPress","AI-Assisted Development"],
+  "sameAs": ["https://www.linkedin.com/in/iqra-rehman-68864b17a/"]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"What platforms do you work with?","acceptedAnswer":{"@type":"Answer","text":"WordPress, Shopify, and Webflow, including WooCommerce stores, custom themes and plugins."}},
+    {"@type":"Question","name":"How long does a website take?","acceptedAnswer":{"@type":"Answer","text":"A landing page can be ready in a few days; a standard business or ecommerce site typically takes 1 to 3 weeks."}},
+    {"@type":"Question","name":"Can you convert my Figma design into a live website?","acceptedAnswer":{"@type":"Answer","text":"Yes. Figma-to-WordPress and Figma-to-Webflow conversion is a core service, building pixel-perfect, fully responsive sites."}},
+    {"@type":"Question","name":"Do you optimize for speed and SEO?","acceptedAnswer":{"@type":"Answer","text":"Every site ships with technical SEO and speed optimization aiming for strong Core Web Vitals and fast loads."}},
+    {"@type":"Question","name":"Do you work with international clients?","acceptedAnswer":{"@type":"Answer","text":"Yes, remotely with clients across the US, UK, Germany, UAE and Pakistan."}},
+    {"@type":"Question","name":"Do you offer ongoing maintenance?","acceptedAnswer":{"@type":"Answer","text":"Yes, including updates, security monitoring, plugin management, bug fixes and performance tuning."}}
+  ]
+}
+</script>
+
+<style>
+  :root{
+    --bg:#0a0a0f;
+    --bg-soft:#111119;
+    --card:#15151f;
+    --border:#23232f;
+    --text:#e8e8ee;
+    --muted:#9a9aab;
+    --accent:#2f80ed;
+    --accent-2:#56ccf2;
+    --accent-glow:rgba(47,128,237,.35);
+    --radius:16px;
+    --max:1120px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Inter',system-ui,-apple-system,sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  h1,h2,h3,.brand{font-family:'Space Grotesk',sans-serif;line-height:1.15;letter-spacing:-.02em}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+  .accent{color:var(--accent-2)}
+  section{padding:90px 0}
+
+  /* NAV */
+  header{
+    position:fixed;top:0;left:0;right:0;z-index:100;
+    background:rgba(10,10,15,.72);
+    backdrop-filter:blur(14px);
+    border-bottom:1px solid transparent;
+    transition:border-color .3s, background .3s;
+  }
+  header.scrolled{border-bottom-color:var(--border)}
+  nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+  .brand{font-weight:700;font-size:1.15rem}
+  .brand span{color:var(--accent-2)}
+  .nav-links{display:flex;gap:32px;align-items:center}
+  .nav-links a{color:var(--muted);font-size:.95rem;font-weight:500;transition:color .2s}
+  .nav-links a:hover{color:var(--text)}
+  .btn{
+    display:inline-block;background:var(--accent);color:#ffffff !important;
+    padding:11px 22px;border-radius:10px;font-weight:600;font-size:.95rem;
+    transition:transform .2s, box-shadow .2s;
+    box-shadow:0 6px 22px var(--accent-glow);
+  }
+  .nav-links a.btn{color:#ffffff !important}
+  .btn:hover{transform:translateY(-2px);box-shadow:0 10px 30px var(--accent-glow)}
+  .btn-ghost{background:transparent;border:1px solid var(--border);box-shadow:none;color:var(--text)}
+  .btn-ghost:hover{border-color:var(--accent);box-shadow:none}
+  .menu-toggle{display:none;background:none;border:none;color:var(--text);font-size:1.6rem;cursor:pointer}
+
+  /* HERO */
+  .hero{position:relative;padding:150px 0 90px;overflow:hidden}
+  .hero-glow{
+    position:absolute;top:-140px;right:-120px;width:520px;height:520px;
+    background:radial-gradient(circle,var(--accent-glow),transparent 68%);
+    filter:blur(20px);z-index:0;pointer-events:none;
+  }
+  .hero .wrap{position:relative;z-index:1}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:8px;
+    background:var(--bg-soft);border:1px solid var(--border);
+    padding:7px 15px;border-radius:100px;font-size:.85rem;color:var(--muted);
+    margin-bottom:26px;
+  }
+  .dot{width:8px;height:8px;border-radius:50%;background:#22c55e;box-shadow:0 0 10px #22c55e}
+  .hero h1{font-size:clamp(2.4rem,6vw,4rem);font-weight:700;margin-bottom:22px}
+  .hero p.lead{font-size:clamp(1.05rem,2.2vw,1.3rem);color:var(--muted);max-width:640px;margin-bottom:34px}
+  .hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:52px}
+  .stats{display:flex;gap:44px;flex-wrap:wrap}
+  .stat h3{font-size:2rem;color:var(--accent-2);font-weight:700}
+  .stat p{font-size:.9rem;color:var(--muted)}
+
+  /* SECTION HEADER */
+  .sec-head{margin-bottom:52px;max-width:640px}
+  .sec-head .tag{color:var(--accent-2);font-weight:600;font-size:.9rem;text-transform:uppercase;letter-spacing:.08em}
+  .sec-head h2{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:700;margin:12px 0 14px}
+  .sec-head p{color:var(--muted)}
+
+  /* SERVICES */
+  .grid{display:grid;gap:22px}
+  .services{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+  .card{
+    background:var(--card);border:1px solid var(--border);
+    border-radius:var(--radius);padding:30px;
+    transition:transform .25s, border-color .25s;
+  }
+  .card:hover{transform:translateY(-5px);border-color:var(--accent)}
+  .card .ico{
+    width:48px;height:48px;border-radius:12px;
+    background:linear-gradient(135deg,var(--accent),var(--accent-2));
+    display:flex;align-items:center;justify-content:center;font-size:1.4rem;margin-bottom:18px;
+  }
+  .card h3{font-size:1.2rem;margin-bottom:10px}
+  .card p{color:var(--muted);font-size:.95rem}
+
+  /* PROJECTS */
+  .filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:32px}
+  .filter{
+    background:var(--bg-soft);border:1px solid var(--border);color:var(--muted);
+    padding:9px 20px;border-radius:100px;font-size:.9rem;font-weight:500;cursor:pointer;
+    font-family:'Inter',sans-serif;transition:all .2s;
+  }
+  .filter:hover{color:var(--text);border-color:var(--accent)}
+  .filter.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .projects{grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+  .proj{
+    background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+    overflow:hidden;transition:transform .25s, border-color .25s;
+    display:flex;flex-direction:column;
+  }
+  .proj:hover{transform:translateY(-5px);border-color:var(--accent)}
+  .proj .thumb{
+    height:120px;display:flex;align-items:center;justify-content:center;
+    font-family:'Space Grotesk';font-weight:700;font-size:1.15rem;color:#fff;
+    position:relative;
+  }
+  .proj-body{padding:20px 22px}
+  .proj-body .platform{
+    display:inline-block;font-size:.72rem;font-weight:600;text-transform:uppercase;
+    letter-spacing:.06em;padding:4px 10px;border-radius:6px;margin-bottom:10px;
+    background:rgba(47,128,237,.16);color:var(--accent-2);
+  }
+  .proj-body h3{font-size:1.05rem;margin-bottom:6px}
+  .proj-body a.link{color:var(--muted);font-size:.85rem;transition:color .2s;word-break:break-all}
+  .proj-body a.link:hover{color:var(--accent-2)}
+
+  /* SKILLS */
+  .skills-wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+  .skill-group{
+    background:var(--card);border:1px solid var(--border);border-radius:var(--radius);
+    padding:26px;transition:transform .25s, border-color .25s;
+  }
+  .skill-group:hover{transform:translateY(-4px);border-color:var(--accent)}
+  .skill-head{display:flex;align-items:center;gap:13px;margin-bottom:18px}
+  .skill-head .sk-ico{
+    width:40px;height:40px;border-radius:11px;flex-shrink:0;
+    background:linear-gradient(135deg,rgba(47,128,237,.2),rgba(86,204,242,.12));
+    border:1px solid var(--border);
+    display:flex;align-items:center;justify-content:center;font-size:1.15rem;
+  }
+  .skill-group h3{font-size:1.08rem;color:var(--text);margin:0}
+  .pills{display:flex;flex-wrap:wrap;gap:9px}
+  .pill{
+    background:var(--bg-soft);border:1px solid var(--border);
+    padding:7px 14px;border-radius:9px;font-size:.85rem;color:var(--muted);font-weight:500;
+    transition:border-color .2s, color .2s, background .2s;
+  }
+  .pill:hover{border-color:var(--accent);color:var(--text);background:rgba(47,128,237,.08)}
+
+  /* EXPERIENCE */
+  .timeline{position:relative;max-width:760px;margin:0 auto}
+  .timeline::before{content:'';position:absolute;left:8px;top:6px;bottom:6px;width:2px;background:var(--border)}
+  .tl-item{position:relative;padding:0 0 34px 40px}
+  .tl-item::before{
+    content:'';position:absolute;left:0;top:5px;width:18px;height:18px;border-radius:50%;
+    background:var(--bg);border:3px solid var(--accent);
+  }
+  .tl-item:last-child{padding-bottom:0}
+  .tl-item .when{color:var(--accent-2);font-size:.82rem;font-weight:600;margin-bottom:4px}
+  .tl-item h3{font-size:1.12rem;margin-bottom:3px}
+  .tl-item .co{color:var(--muted);font-size:.92rem;margin-bottom:8px}
+  .tl-item p{color:var(--muted);font-size:.92rem}
+
+  /* FAQ */
+  .faq-list{max-width:780px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+  .faq{
+    background:var(--card);border:1px solid var(--border);border-radius:14px;
+    overflow:hidden;transition:border-color .2s;
+  }
+  .faq:hover{border-color:var(--accent)}
+  .faq-q{
+    width:100%;text-align:left;background:none;border:none;cursor:pointer;
+    padding:22px 24px;font-family:'Space Grotesk',sans-serif;font-size:1.05rem;font-weight:600;
+    color:var(--text);display:flex;justify-content:space-between;align-items:center;gap:16px;
+  }
+  .faq-q .plus{color:var(--accent-2);font-size:1.4rem;flex-shrink:0;transition:transform .25s;line-height:1}
+  .faq.open .faq-q .plus{transform:rotate(45deg)}
+  .faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease}
+  .faq-a p{padding:0 24px 22px;color:var(--muted);font-size:.96rem}
+  .faq.open .faq-a{max-height:400px}
+
+  /* CTA BAND */
+  .cta-band{
+    background:linear-gradient(135deg,rgba(47,128,237,.18),rgba(86,204,242,.08));
+    border:1px solid var(--border);border-radius:24px;padding:56px 40px;text-align:center;
+  }
+  .cta-band h2{font-size:clamp(1.8rem,4vw,2.6rem);margin-bottom:14px}
+  .cta-band p{color:var(--muted);max-width:520px;margin:0 auto 28px}
+
+  /* FOOTER */
+  footer{border-top:1px solid var(--border);padding:40px 0;text-align:center;color:var(--muted);font-size:.9rem}
+  footer .flinks{display:flex;gap:24px;justify-content:center;margin-bottom:18px;flex-wrap:wrap}
+  footer .flinks a{color:var(--muted);transition:color .2s}
+  footer .flinks a:hover{color:var(--accent-2)}
+
+  /* BACK TO TOP */
+  #top{
+    position:fixed;bottom:26px;right:26px;width:46px;height:46px;border-radius:12px;
+    background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;
+    font-size:1.2rem;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .3s, transform .2s;
+    box-shadow:0 8px 24px var(--accent-glow);border:none;z-index:90;
+  }
+  #top.show{opacity:1;pointer-events:auto}
+  #top:hover{transform:translateY(-3px)}
+
+  /* reveal animation — content is visible by default; only hidden once JS enables it */
+  .reveal{opacity:1;transform:none}
+  body.js .reveal{opacity:0;transform:translateY(24px);transition:opacity .6s ease, transform .6s ease}
+  body.js .reveal.in{opacity:1;transform:none}
+
+  @media(max-width:760px){
+    .nav-links{
+      position:fixed;top:68px;left:0;right:0;flex-direction:column;gap:0;
+      background:var(--bg-soft);border-bottom:1px solid var(--border);
+      max-height:0;overflow:hidden;transition:max-height .3s;
+    }
+    .nav-links.open{max-height:340px}
+    .nav-links a{padding:15px 24px;width:100%;border-bottom:1px solid var(--border)}
+    .nav-links .btn{margin:14px 24px;text-align:center}
+    .menu-toggle{display:block}
+    section{padding:64px 0}
+    .stats{gap:28px}
+  }
+  @media(prefers-reduced-motion:reduce){
+    .reveal{opacity:1;transform:none;transition:none}
+    html{scroll-behavior:auto}
+  }
+</style>
+</head>
+<body>
+
+<header id="hdr">
+  <div class="wrap">
+    <nav>
+      <a href="#home" class="brand">Iqra<span>.</span>Rehman</a>
+      <div class="nav-links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn">Let's Talk</a>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-glow"></div>
+  <div class="wrap">
+    <span class="eyebrow"><span class="dot"></span> Available for freelance & remote work</span>
+    <h1>I build <span class="accent">fast, high-converting</span> websites that grow your business.</h1>
+    <p class="lead">Senior WordPress, Shopify &amp; Webflow developer with 3+ years turning designs into pixel-perfect, SEO-optimized sites that load in seconds — trusted by clients in Pakistan, Dubai, the UK &amp; Germany.</p>
+    <div class="hero-cta">
+      <a href="#contact" class="btn">Start Your Project</a>
+      <a href="#work" class="btn btn-ghost">View My Work</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><h3>50+</h3><p>Websites Delivered</p></div>
+      <div class="stat"><h3>3+</h3><p>Years Experience</p></div>
+      <div class="stat"><h3>5</h3><p>Countries Served</p></div>
+      <div class="stat"><h3>90+</h3><p>PageSpeed Scores</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="tag">What I Do</span>
+      <h2>Services built to convert</h2>
+      <p>End-to-end web development focused on speed, search visibility, and turning visitors into customers.</p>
+    </div>
+    <div class="grid services">
+      <div class="card reveal"><div class="ico">🛠️</div><h3>WordPress Development</h3><p>Custom, responsive WordPress sites with Elementor Pro, Divi &amp; WPBakery — plus theme &amp; plugin customization and ACF.</p></div>
+      <div class="card reveal"><div class="ico">🛒</div><h3>Shopify &amp; WooCommerce</h3><p>Full ecommerce stores with product setup, theme customization, app integration and optimized checkout to boost sales.</p></div>
+      <div class="card reveal"><div class="ico">🎨</div><h3>Figma to Code</h3><p>Pixel-perfect Figma-to-WordPress &amp; Figma-to-Webflow conversion — fully responsive across every device.</p></div>
+      <div class="card reveal"><div class="ico">⚡</div><h3>Speed Optimization</h3><p>Core Web Vitals tuning through caching, image optimization &amp; code minification for sub-second load times.</p></div>
+      <div class="card reveal"><div class="ico">🔍</div><h3>Technical SEO</h3><p>On-page SEO, schema markup, site structure &amp; crawlability fixes that help your pages rank and get found.</p></div>
+      <div class="card reveal"><div class="ico">🔧</div><h3>Maintenance &amp; Support</h3><p>Ongoing updates, security monitoring, bug fixes and plugin management to keep your site healthy and fast.</p></div>
+      <div class="card reveal"><div class="ico">🧩</div><h3>Plugin Development</h3><p>Custom WordPress plugins &amp; tailored functionality — from bespoke features to third-party API integrations built to your exact needs.</p></div>
+      <div class="card reveal"><div class="ico">🤖</div><h3>AI-Powered Development</h3><p>Faster, smarter builds using AI tools like Claude &amp; ChatGPT for rapid prototyping, clean code, content and workflow automation.</p></div>
+      <div class="card reveal"><div class="ico">🌐</div><h3>Domain &amp; Hosting Setup</h3><p>Connecting domains to hosting, DNS configuration, SSL, email setup and getting your site live smoothly on cPanel or any host.</p></div>
+      <div class="card reveal"><div class="ico">📦</div><h3>Website Migration</h3><p>Safe, zero-downtime migration between hosts, domains or platforms — preserving your content, SEO rankings and site speed.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work" style="background:var(--bg-soft)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="tag">Selected Work</span>
+      <h2>Projects that ship &amp; perform</h2>
+      <p>A snapshot of 25+ live websites from 50+ delivered — across ecommerce, corporate and service niches.</p>
+    </div>
+    <div class="filters reveal" id="filters">
+      <button class="filter active" data-f="all">All</button>
+      <button class="filter" data-f="WordPress">WordPress</button>
+      <button class="filter" data-f="Shopify">Shopify</button>
+      <button class="filter" data-f="Webflow">Webflow</button>
+    </div>
+    <div class="grid projects" id="projGrid"></div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="tag">Toolkit</span>
+      <h2>My tools &amp; technologies</h2>
+      <p>The stack behind every fast, reliable website I build.</p>
+    </div>
+    <div class="skills-wrap">
+      <div class="skill-group reveal"><div class="skill-head"><span class="sk-ico">🧱</span><h3>Platforms</h3></div><div class="pills"><span class="pill">WordPress</span><span class="pill">Shopify</span><span class="pill">Webflow</span><span class="pill">WooCommerce Pro</span></div></div>
+      <div class="skill-group reveal"><div class="skill-head"><span class="sk-ico">🎛️</span><h3>Page Builders</h3></div><div class="pills"><span class="pill">Elementor Pro</span><span class="pill">Divi</span><span class="pill">WPBakery</span></div></div>
+      <div class="skill-group reveal"><div class="skill-head"><span class="sk-ico">💻</span><h3>Frontend</h3></div><div class="pills"><span class="pill">HTML5</span><span class="pill">CSS3</span><span class="pill">Bootstrap</span><span class="pill">Responsive Design</span></div></div>
+      <div class="skill-group reveal"><div class="skill-head"><span class="sk-ico">🧩</span><h3>Customization</h3></div><div class="pills"><span class="pill">Theme Development</span><span class="pill">Plugin Development</span><span class="pill">Plugin Customization</span><span class="pill">ACF</span></div></div>
+      <div class="skill-group reveal"><div class="skill-head"><span class="sk-ico">⚡</span><h3>Optimization</h3></div><div class="pills"><span class="pill">On-Page SEO</span><span class="pill">Speed Optimization</span><span class="pill">Core Web Vitals</span></div></div>
+      <div class="skill-group reveal"><div class="skill-head"><span class="sk-ico">🤖</span><h3>AI Tools</h3></div><div class="pills"><span class="pill">Claude</span><span class="pill">ChatGPT</span><span class="pill">AI-Assisted Coding</span><span class="pill">Prompt Engineering</span></div></div>
+      <div class="skill-group reveal"><div class="skill-head"><span class="sk-ico">🌐</span><h3>Hosting &amp; Deployment</h3></div><div class="pills"><span class="pill">cPanel</span><span class="pill">Domain Setup</span><span class="pill">DNS &amp; SSL</span><span class="pill">Site Migration</span></div></div>
+      <div class="skill-group reveal"><div class="skill-head"><span class="sk-ico">🛠️</span><h3>Workflow &amp; Tools</h3></div><div class="pills"><span class="pill">Figma to Code</span><span class="pill">MySQL</span><span class="pill">Chrome DevTools</span><span class="pill">Trello</span><span class="pill">Slack</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" style="background:var(--bg-soft)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="tag">Career</span>
+      <h2>Where I've worked</h2>
+      <p>3+ years across remote teams and agencies spanning the US, UK, Germany, UAE &amp; Pakistan.</p>
+    </div>
+    <div class="timeline">
+      <div class="tl-item reveal"><div class="when">Jul 2025 — Present</div><h3>Web Developer</h3><div class="co">Xray Lab · Germany (Remote)</div><p>Landing page design, technical SEO, schema &amp; page-speed improvements, plus ongoing maintenance for a German-based team across time zones.</p></div>
+      <div class="tl-item reveal"><div class="when">2024 — Present</div><h3>Web Developer</h3><div class="co">Vorza360 · San Francisco, CA (Remote)</div><p>Built and maintained high-performance websites for US-based clients, focusing on responsive design, speed and conversion-driven layouts.</p></div>
+      <div class="tl-item reveal"><div class="when">May 2024 — Dec 2025</div><h3>Senior WordPress Developer</h3><div class="co">Pk.page · Islamabad (Remote)</div><p>Figma-to-WordPress conversion, Shopify stores, Webflow builds and high-converting ecommerce sites with Elementor Pro, Divi &amp; WPBakery.</p></div>
+      <div class="tl-item reveal"><div class="when">May 2023 — Sep 2025</div><h3>WordPress Website Manager</h3><div class="co">Techspurt · Sheridan, Wyoming (Remote)</div><p>Managed full website lifecycles, kept installs secure &amp; updated, and improved Core Web Vitals across diverse client environments.</p></div>
+      <div class="tl-item reveal"><div class="when">May 2023 — May 2024</div><h3>Senior WordPress Developer</h3><div class="co">Digital Genei · United Kingdom (Remote)</div><p>Built 20+ WordPress sites, improved ROAS for ecommerce brands and delivered measurable page-speed gains through optimization.</p></div>
+      <div class="tl-item reveal"><div class="when">Jan 2023 — Apr 2023</div><h3>Website Developer</h3><div class="co">That Nerd Studio · Dubai (Remote)</div><p>Developed and maintained client sites, customized themes &amp; plugins to brand guidelines and reduced downtime.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head reveal" style="margin-left:auto;margin-right:auto;text-align:center">
+      <span class="tag">FAQ</span>
+      <h2>Frequently asked questions</h2>
+      <p style="margin:0 auto">Quick answers to what clients usually ask before we start.</p>
+    </div>
+    <div class="faq-list" id="faqList">
+      <div class="faq"><button class="faq-q">What platforms do you work with?<span class="plus">+</span></button><div class="faq-a"><p>I build on WordPress, Shopify, and Webflow, including WooCommerce stores, custom themes and plugins. I'll recommend the best fit for your goals, budget and how you want to manage the site afterward.</p></div></div>
+      <div class="faq"><button class="faq-q">How long does a website take?<span class="plus">+</span></button><div class="faq-a"><p>A landing page can be ready in a few days. A standard business or ecommerce site typically takes 1–3 weeks depending on the number of pages, features and how quickly content and feedback come through.</p></div></div>
+      <div class="faq"><button class="faq-q">Can you convert my Figma design into a live website?<span class="plus">+</span></button><div class="faq-a"><p>Yes. Figma-to-WordPress and Figma-to-Webflow conversion is a core service. I build pixel-perfect, fully responsive sites that match your design exactly across every screen size.</p></div></div>
+      <div class="faq"><button class="faq-q">Do you optimize for speed and SEO?<span class="plus">+</span></button><div class="faq-a"><p>Every site ships with technical SEO (schema, structure, crawlability) and speed optimization — caching, image compression and code minification — aiming for strong Core Web Vitals and fast, sub-second loads.</p></div></div>
+      <div class="faq"><button class="faq-q">Do you work with international clients?<span class="plus">+</span></button><div class="faq-a"><p>Absolutely. I work remotely with clients across the US, UK, Germany, UAE and Pakistan, and I'm comfortable collaborating across time zones with clear, regular communication.</p></div></div>
+      <div class="faq"><button class="faq-q">Do you offer ongoing maintenance?<span class="plus">+</span></button><div class="faq-a"><p>Yes. I provide ongoing updates, security monitoring, plugin management, bug fixes and performance tuning to keep your site secure, fast and up to date after launch.</p></div></div>
+      <div class="faq"><button class="faq-q">How do we get started?<span class="plus">+</span></button><div class="faq-a"><p>Just send me a message with what you need. We'll discuss your goals, timeline and budget, then I'll share a clear plan so you know exactly what to expect before any work begins.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT / CTA -->
+<section id="contact">
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <h2>Let's build something fast.</h2>
+      <p>Have a project in mind — a new site, a store, a Figma design, or a slow website that needs fixing? Let's make it happen.</p>
+      <div class="hero-cta" style="justify-content:center;margin-bottom:0">
+        <a href="mailto:iqrarehman025@gmail.com" class="btn">Email Me</a>
+        <a href="https://wa.me/923110410446" class="btn btn-ghost">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="flinks">
+      <a href="mailto:iqrarehman025@gmail.com">iqrarehman025@gmail.com</a>
+      <a href="tel:+923110410446">+92 311 0410446</a>
+      <a href="https://www.linkedin.com/in/iqra-rehman-68864b17a/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <p>© <span id="yr"></span> Iqra Rehman · Senior WordPress &amp; Web Developer · Islamabad, Pakistan</p>
+  </div>
+</footer>
+
+<button id="top" aria-label="Back to top">↑</button>
+
+<script>
+  // Projects data
+  const projects=[
+    // pk.page — WordPress client sites
+    {n:"Haji Bashir Jarrah",p:"WordPress",u:"hajibashirjarrah.com",c:"#2f80ed,#56ccf2"},
+    {n:"Dr Nelly Silva",p:"WordPress",u:"drnellysilva.com",c:"#1e6fd9,#4aa3f0"},
+    {n:"Pinnacle Logistics Partners",p:"WordPress",u:"pinnaclelogisticspartners.com",c:"#0984e3,#74b9ff"},
+    {n:"Dhar Distributors",p:"WordPress",u:"dhardistributors.com",c:"#2f80ed,#7ec8ff"},
+    {n:"Connect Immigration",p:"WordPress",u:"connectimmigrationconsultancy.com",c:"#1e6fd9,#56ccf2"},
+    {n:"Pinnacle Logistics Co",p:"WordPress",u:"pinnaclelogisticsco.com",c:"#0984e3,#56ccf2"},
+    {n:"Meadows Recovery Center",p:"WordPress",u:"meadowsrecoverycenter.com",c:"#2f80ed,#4aa3f0"},
+    {n:"Rang O Khayal",p:"WordPress",u:"rangokhayal.pk",c:"#1e6fd9,#74b9ff"},
+    {n:"Hyundai Solar",p:"WordPress",u:"hyundaisolar.com.pk",c:"#0984e3,#56ccf2"},
+    {n:"Zenmatech",p:"WordPress",u:"zenmatech.com",c:"#2f80ed,#56ccf2"},
+    {n:"The Maple Resorts",p:"WordPress",u:"themapleresorts.com",c:"#1e6fd9,#7ec8ff"},
+    {n:"Al Quran Internationals",p:"WordPress",u:"alquraninternationals.com",c:"#0984e3,#4aa3f0"},
+    {n:"The Emigration Edge",p:"WordPress",u:"theemigrationedge.com",c:"#2f80ed,#74b9ff"},
+    {n:"Hearing Aid Centre Peshawar",p:"WordPress",u:"hearingaidcentrepeshawar.com",c:"#1e6fd9,#56ccf2"},
+    {n:"Atlas Scales",p:"WordPress",u:"atlas-scales.pk",c:"#0984e3,#7ec8ff"},
+    {n:"The Pursuit Law Firm",p:"WordPress",u:"thepursuitlawfirm.com",c:"#2f80ed,#4aa3f0"},
+    {n:"Stravaigin Scotland",p:"WordPress",u:"stravaigin-scotland.com",c:"#1e6fd9,#56ccf2"},
+    {n:"Stravaigin Minicoaches",p:"WordPress",u:"stravaigin-minicoaches.com",c:"#0984e3,#7ec8ff"},
+    // Shopify stores
+    {n:"Scents Enclave",p:"Shopify",u:"scentsenclave.com",c:"#2d3436,#4aa3f0"},
+    {n:"NutriKrunch",p:"Shopify",u:"nutrikrunch.com",c:"#0984e3,#56ccf2"},
+    {n:"The Body Slim",p:"Shopify",u:"thebodyslim.com",c:"#1e6fd9,#74b9ff"},
+    {n:"MKSoft",p:"Shopify",u:"mksoft.online",c:"#2f80ed,#7ec8ff"},
+    {n:"The Aevum",p:"Shopify",u:"theaevum.com",c:"#2d3436,#56ccf2"},
+    // Techspurt — WordPress
+    {n:"BeeFriends Cleaners",p:"WordPress",u:"beefriendscleaners.com",c:"#1e6fd9,#4aa3f0"},
+    // Techspurt — Webflow
+    {n:"Techspurt",p:"Webflow",u:"techspurt.net",c:"#0984e3,#74b9ff"},
+    {n:"Levine CPAs",p:"Webflow",u:"levinecpas.com",c:"#2f80ed,#56ccf2"}
+  ];
+  const grid=document.getElementById('projGrid');
+  function renderProjects(f){
+    const list=(f==='all')?projects:projects.filter(x=>x.p===f);
+    grid.innerHTML=list.map(x=>`
+    <article class="proj">
+      <div class="thumb" style="background:linear-gradient(135deg,${x.c})">${x.n}</div>
+      <div class="proj-body">
+        <span class="platform">${x.p}</span>
+        <h3>${x.n}</h3>
+        <a class="link" href="https://${x.u}" target="_blank" rel="noopener">${x.u} ↗</a>
+      </div>
+    </article>`).join('');
+  }
+  renderProjects('all');
+  // Filter buttons
+  document.querySelectorAll('.filter').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      document.querySelectorAll('.filter').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      renderProjects(btn.dataset.f);
+    });
+  });
+
+  // Year
+  document.getElementById('yr').textContent=new Date().getFullYear();
+
+  // Header scroll state + back to top
+  const hdr=document.getElementById('hdr'), topBtn=document.getElementById('top');
+  window.addEventListener('scroll',()=>{
+    const y=window.scrollY;
+    hdr.classList.toggle('scrolled',y>10);
+    topBtn.classList.toggle('show',y>500);
+  },{passive:true});
+  topBtn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+
+  // Mobile menu
+  const toggle=document.getElementById('menuToggle'), links=document.getElementById('navLinks');
+  toggle.addEventListener('click',()=>links.classList.toggle('open'));
+  links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>links.classList.remove('open')));
+
+  // FAQ accordion
+  document.querySelectorAll('.faq-q').forEach(q=>{
+    q.addEventListener('click',()=>{
+      const item=q.parentElement;
+      const wasOpen=item.classList.contains('open');
+      document.querySelectorAll('.faq').forEach(f=>f.classList.remove('open'));
+      if(!wasOpen)item.classList.add('open');
+    });
+  });
+
+  // Reveal on scroll — only take over hiding once we know JS runs
+  (function(){
+    var els=document.querySelectorAll('.reveal');
+    if(!('IntersectionObserver' in window)){
+      // No observer support: leave everything visible (default state)
+      return;
+    }
+    document.body.classList.add('js'); // now .reveal starts hidden
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})
+    },{threshold:.08,rootMargin:'0px 0px -40px 0px'});
+    els.forEach(function(el){io.observe(el)});
+    // Safety net: reveal anything still hidden after 2.5s (e.g. file:// quirks)
+    setTimeout(function(){els.forEach(function(el){el.classList.add('in')})},2500);
+  })();
+</script>
+
+</body>
+</html>
