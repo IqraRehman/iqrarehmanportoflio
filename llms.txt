@@ -1,0 +1,46 @@
+# Iqra Rehman
+
+> Senior WordPress, Shopify and Webflow developer based in Islamabad, Pakistan. 3+ years of experience and 50+ websites delivered for clients in Pakistan, Dubai (UAE), the United Kingdom, Germany and the United States. Available for freelance and remote work.
+
+## Services
+
+- WordPress development: Elementor Pro, Divi, WPBakery, custom themes with ACF
+- Shopify and WooCommerce online stores
+- Webflow websites with CMS
+- Figma to code (pixel-accurate, responsive)
+- Website speed optimization and Core Web Vitals (typical PageSpeed score 90+)
+- Technical SEO: schema markup, site structure, sitemaps, crawlability
+- Custom WordPress plugin development and API integrations
+- Website maintenance and support
+- Website migration (host, domain or platform)
+- Domain, hosting, DNS, SSL and business email setup
+
+## Typical timelines
+
+- Landing page: 1 day
+- Standard business website: 3 to 5 days
+- Online store: 5 to 8 days
+- Speed fix: 1 to 2 days
+
+## Experience
+
+- Web Developer, Xray Lab (Germany, remote), Jul 2025 to present
+- Web Developer, Vorza360 (San Francisco, remote), 2024 to present
+- Senior WordPress Developer, Pk.page (Islamabad, remote), May 2024 to Dec 2025
+- WordPress Website Manager, Techspurt (Wyoming, remote), May 2023 to Sep 2025
+- Senior WordPress Developer, Digital Genei (UK, remote), May 2023 to May 2024
+- Website Developer, That Nerd Studio (Dubai, remote), Jan 2023 to Apr 2023
+
+## Contact
+
+- Website: https://iqrarehman.dev/
+- WhatsApp / phone: +92 311 0410446
+
+
+## Selected work
+
+- NutriKrunch (Shopify): https://nutrikrunch.com/ — online store for an Islamabad wellness brand (shakes, detox drinks, dried fruit)
+- Techspurt (Webflow): https://techspurt.net/ — agency website for a US digital studio
+- AccountKing (WordPress): https://accountking.com/ — website for a bookkeeping firm
+- Bridges for Families (WordPress) — website for a family-support nonprofit in New Jersey, Brooklyn and Toronto
+- Attic Fanatics (WordPress) — lead-generation website for an attic insulation and wildlife removal company
